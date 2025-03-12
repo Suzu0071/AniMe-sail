@@ -11,6 +11,16 @@
 	overflow-x: hidden;
 }
 
+.v-application .primary {
+  background-color: rgba(173, 241, 255, 0.5) !important; /*adf1ff*/
+  color: #ffffff !important;
+  opacity: 1 !important;
+  border-bottom-color: rgba(255,255,255,0.12) !important;
+  border-left-color: transparent !important;
+  border-right-color: rgba(255,255,255,0.12) !important;
+  border-top-color: rgba(255,255,255,0.12) !important;
+}
+
 .v-window._border-radius.v-item-group.theme--dark.v-tabs-items{
   background-color: rgba(0,0,0,0) !important;
 }
@@ -28,12 +38,18 @@
 }
 
 .v-btn.warning {
-  background-color: #c7c7c7 !important;
+  /*background-color: #c7c7c7 !important;
   color: #ffffff !important;
   border-bottom-color: #c7c7c7 !important;
   border-left-color: #c7c7c7 !important;
   border-right-color: #c7c7c7 !important;
-  border-top-color: #c7c7c7 !important;
+  border-top-color: #c7c7c7 !important;*/
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-bottom-color: rgba(255,255,255,0.12) !important;
+  border-left-color: transparent !important;
+  border-right-color: rgba(255,255,255,0.12) !important;
+  border-top-color: rgba(255,255,255,0.12) !important;
 }
 
 
@@ -58,17 +74,6 @@
 
 /*main#content {
     background-size:auto;
-}
-
-/*body {
-	background: -moz-linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
-	background: -webkit-linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
-	background: linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
-	background-size: 200% 400%;
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	justify-content: space-evenly;
 }*/
 
 .v-btn.error {
@@ -83,7 +88,8 @@
 }
 
 .theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
-	background: #111111/*#dbdbdb; /* #111111; /*383838*/ /*################################hover on menu######################*/
+  background: transparent;/*#dbdbdb; /* #111111; /*383838*/ /*################################hover on menu######################*/
+  backdrop-filter: blur(10px);
 }
 
 .theme--dark.v-sheet {
@@ -96,8 +102,8 @@
 .theme--dark.v-application,
 .theme--dark.v-navigation-drawer,
 .v-navigation-drawer__image>.v-image>.v-image__image.v-image__image--cover {
-	background: transparent;
-	background-image: none !important;
+	/*background: transparent;*/
+	/*background-image: none !important;*/
 	border: none !important;
 	box-shadow: none !important;
 }
@@ -179,8 +185,8 @@
 .v-card.v-sheet.theme--dark {
     box-shadow: none !important;
 	border-radius: 15px;
-	background-color: rgba(0,0,0,0.7) !important; /*####################for menus###################*/
-	backdrop-filter: blur(10px);
+	background-color: rgba(0,0,0,0.3) !important; /*####################for menus###################*/
+	backdrop-filter: blur(5px);
 }
 
 .v-menu__content {
