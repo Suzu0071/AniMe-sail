@@ -56,7 +56,7 @@
 	color: var(--color-2) !important;
 }
 
-main#content {
+/*main#content {
     background-size:auto;
 }
 
@@ -83,7 +83,7 @@ main#content {
 }
 
 .theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
-	background: #dbdbdb; /* #111111; /*383838*/
+	background: #111111/*#dbdbdb; /* #111111; /*383838*/ /*################################hover on menu######################*/
 }
 
 .theme--dark.v-sheet {
@@ -107,13 +107,13 @@ main#content {
 }
 
 .theme--dark.v-app-bar.v-toolbar.v-sheet {
-	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-color: rgba(0, 0, 0, 0.7) !important; /*##########################top bar##############################*/
 	backdrop-filter: blur(10px);
 }
 
 .theme--dark.v-navigation-drawer,
 .v-color-picker__controls {
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.7); /*###############################side bar########################################*/
 	backdrop-filter: blur(10px);
 }
 
@@ -179,14 +179,14 @@ main#content {
 .v-card.v-sheet.theme--dark {
     box-shadow: none !important;
 	border-radius: 15px;
-	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-color: rgba(0,0,0,0.7) !important; /*####################for menus###################*/
 	backdrop-filter: blur(10px);
 }
 
 .v-menu__content {
     box-shadow: none !important;
 	border-radius: 15px;
-	background-color: rgba(0, 0, 0, 0) !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
 	backdrop-filter: blur(10px);
 }
 
