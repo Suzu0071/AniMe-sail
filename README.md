@@ -1,6 +1,6 @@
 # Miku-sail
 
-Theme with out beloved Hatsune Miku :3
+Theme with our beloved Hatsune Miku :3
 
 <img src="./screenshot.png">
 
