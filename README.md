@@ -6,7 +6,7 @@ Theme with out beloved Hatsune Miku :3
 
 *Fluidd has it's quirks, use at your own will*
 
-Install any theme from kiauh and swap the custom.css found in .theme
+Make a `.theme` folder(for mainsail), or a `.fluidd-theme`(for fluidd) and paste all the files in there.
 
 OR
 
