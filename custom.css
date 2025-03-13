@@ -11,8 +11,24 @@
 	overflow-x: hidden;
 }
 
+/*body {
+	/*background: -moz-linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
+	background: -webkit-linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
+	background: linear-gradient(45deg, var(--color-1) 0%, var(--color-2) 29%, var(--color-3) 66%, var(--color-4) 100%);
+	background-size: 200% 400%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-evenly;
+    position: relative;
+}*/
+
+.panel-toolbar.v-sheet.theme--dark.v-toolbar.v-toolbar--dense.v-toolbar--flat .collapsible {
+  background-color: rgba(0,0,0,1) !important;
+}
+
 .v-application .primary {
-  background-color: rgba(173, 241, 255, 0.5) !important; /*adf1ff*/
+  background-color: rgba(224, 173, 255, 0.5) !important; /*adf1ff*/
   color: #ffffff !important;
   opacity: 1 !important;
   border-bottom-color: rgba(255,255,255,0.12) !important;
@@ -113,8 +129,8 @@
 }
 
 .theme--dark.v-app-bar.v-toolbar.v-sheet {
-	background-color: rgba(0, 0, 0, 0.7) !important; /*##########################top bar##############################*/
-	backdrop-filter: blur(10px);
+	background-color: rgba(0, 0, 0, 0.15) !important; /*##########################top bar##############################*/
+	backdrop-filter: none !important;
 }
 
 .theme--dark.v-navigation-drawer,
@@ -130,7 +146,8 @@
 	border: none;
 }
 
-.v-application .panel .theme--dark.v-toolbar.v-sheet,
+
+/*.v-application .panel .theme--dark.v-toolbar.v-sheet,*/
 .theme--dark.v-data-table,
 .theme--dark.v-tabs>.v-tabs-bar,
 .theme--dark.v-tabs-items,
@@ -147,6 +164,15 @@
 	background-color: transparent !important;
 	border: none !important;
 	box-shadow: none !important;
+}
+
+.v-application .panel .theme--dark.v-toolbar.v-sheet {
+  background-color: none !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.cm-editor {
+  background-color: rgba(0,0,0, 0.5) !important;
 }
 
 .v-input__slot {
@@ -185,8 +211,8 @@
 .v-card.v-sheet.theme--dark {
     box-shadow: none !important;
 	border-radius: 15px;
-	background-color: rgba(0,0,0,0.3) !important; /*####################for menus###################*/
-	backdrop-filter: blur(5px);
+	background-color: rgba(100,100,100, 0.5) !important; /*####################for menus###################*/
+	backdrop-filter: blur(15px);
 }
 
 .v-menu__content {
